@@ -495,6 +495,7 @@ p {
 
 /*img wrap*/
 
+
 .image {
     overflow: hidden;
 }
@@ -1153,11 +1154,11 @@ section,
 }
 
 #rev_slider_8_1 .tp-leftarrow .hvr-pulse:before {
-    content: url("../images/leftarrow.png");
+    content: url("../assets/images/leftarrow.png");
 }
 
 #rev_slider_8_1 .tp-rightarrow .hvr-pulse:before {
-    content: url("../images/rightarrow.png");
+    content: url("../assets/images/rightarrow.png");
 }
 
 
@@ -2670,7 +2671,7 @@ a.dropdown-toggle::after {
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/bg-part-header.jpg);
+    background-image: url(../assets/images/bg-part-header.jpg);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -2759,6 +2760,7 @@ a.dropdown-toggle::after {
 .tp-thumbs {
     top: 47% !important;
 }
+
 
 .numbered .tp-bullet .tp-count {
     font-size: 14px;
@@ -2995,128 +2997,128 @@ a.dropdown-toggle::after {
 }
 
 .bg-parallax-1 {
-    background: url(../images/bg-single-1.jpg) no-repeat;
+    background: url(../assets/images/bg-single-1.jpg) no-repeat;
 }
 
 .bg-parallax-2 {
-    background: url(../images/bg-single-2.jpg) no-repeat;
+    background: url(../assets/images/bg-single-2.jpg) no-repeat;
 }
 
 .bg-parallax-3 {
-    background: url(../images/bg-single-3.jpg) no-repeat;
+    background: url(../assets/images/bg-single-3.jpg) no-repeat;
 }
 
 .bg-parallax-4 {
-    background: url(../images/bg-single-4.jpg) no-repeat;
+    background: url(../assets/images/bg-single-4.jpg) no-repeat;
 }
 
 .bg-parallax-5 {
-    background: url(../images/bg-single-5.jpg) no-repeat;
+    background: url(../assets/images/bg-single-5.jpg) no-repeat;
 }
 
 .bg-parallax-6 {
-    background: url(../images/bg-single-6.jpg) no-repeat;
+    background: url(../assets/images/bg-single-6.jpg) no-repeat;
 }
 
 .bg-parallax-7 {
-    background: url(../images/bg-single-7.jpg) no-repeat;
+    background: url(../assets/images/bg-single-7.jpg) no-repeat;
 }
 
 .about-header {
-    background: url(../images/bg-about-header.jpg) no-repeat;
+    background: url(../assets/images/bg-about-header.jpg) no-repeat;
 }
 
 .startup-header {
-    background: url(../images/banner9.jpg) no-repeat;
+    background: url(../assets/images/banner9.jpg) no-repeat;
 }
 
 .parallax-header {
-    background: url(../images/bg-parallax-header.jpg) no-repeat;
+    background: url(../assets/images/bg-parallax-header.jpg) no-repeat;
     background-size: cover !important;
 }
 
 .blog-header {
-    background: url(../images/bg-blog-header.jpg) no-repeat;
+    background: url(../assets/images/bg-blog-header.jpg) no-repeat;
 }
 
 .blog2-header {
-    background: url(../images/bg-blog2-header.jpg) no-repeat;
+    background: url(../assets/images/bg-blog2-header.jpg) no-repeat;
 }
 
 .blog-detail-header {
-    background: url(../images/bg-blog-detail-header.jpg) no-repeat;
+    background: url(../assets/images/bg-blog-detail-header.jpg) no-repeat;
 }
 
 .service-header {
-    background: url(../images/bg-service-header.jpg) no-repeat;
+    background: url(../assets/images/bg-service-header.jpg) no-repeat;
 }
 
 .service-detail-header {
-    background: url(../images/bg-service-detail-header.jpg) no-repeat;
+    background: url(../assets/images/bg-service-detail-header.jpg) no-repeat;
 }
 
 .contact-header {
-    background: url(../images/bg-contact-header.jpg) no-repeat;
+    background: url(../assets/images/bg-contact-header.jpg) no-repeat;
 }
 
 .gallery-header {
-    background: url(../images/bg-gallery-header.jpg) no-repeat;
+    background: url(../assets/images/bg-gallery-header.jpg) no-repeat;
 }
 
 .gallery-detail-header {
-    background: url(../images/bg-gallery-detail-header.jpg) no-repeat;
+    background: url(../assets/images/bg-gallery-detail-header.jpg) no-repeat;
 }
 
 .shop-detail-header {
-    background: url(../images/bg-shop-detail-header.jpg) no-repeat;
+    background: url(../assets/images/bg-shop-detail-header.jpg) no-repeat;
 }
 
 .shop-header {
-    background: url(../images/bg-shop-header.jpg) no-repeat;
+    background: url(../assets/images/bg-shop-header.jpg) no-repeat;
 }
 
 .cart-header {
-    background: url(../images/bg-cart-header.jpg) no-repeat;
+    background: url(../assets/images/bg-cart-header.jpg) no-repeat;
 }
 
 .team-header {
-    background: url(../images/bg-team-header.jpg) no-repeat;
+    background: url(../assets/images/bg-team-header.jpg) no-repeat;
 }
 
 .pricing-header {
-    background: url(../images/bg-pricing-header.jpg) no-repeat;
+    background: url(../assets/images/bg-pricing-header.jpg) no-repeat;
 }
 
 .testimonial-header {
-    background: url(../images/bg-testimonial-header.jpg) no-repeat;
+    background: url(../assets/images/bg-testimonial-header.jpg) no-repeat;
 }
 
 .faq-header {
-    background: url(../images/bg-faq-header.jpg) no-repeat;
+    background: url(../assets/images/bg-faq-header.jpg) no-repeat;
 }
 
 .error404-header {
-    background: url(../images/bg-404-header.jpg) no-repeat;
+    background: url(../assets/images/bg-404-header.jpg) no-repeat;
 }
 
 .coming-soon-header {
-    background: url(../images/bg-coming-soon-header.jpg) no-repeat;
+    background: url(../assets/images/bg-coming-soon-header.jpg) no-repeat;
 }
 
 .sign-in-header {
-    background: url(../images/bg-sign-in-header.jpg) no-repeat;
+    background: url(../assets/images/bg-sign-in-header.jpg) no-repeat;
 }
 
 .sign-up-header {
-    background: url(../images/bg-sign-up-header.jpg) no-repeat;
+    background: url(../assets/images/bg-sign-up-header.jpg) no-repeat;
 }
 
 .reset-header {
-    background: url(../images/bg-reset-header.jpg) no-repeat;
+    background: url(../assets/images/bg-reset-header.jpg) no-repeat;
 }
 
 .testimonial-bg {
-    background: url(../images/testimonial-bg.jpg) no-repeat;
+    background: url(../assets/images/testimonial-bg.jpg) no-repeat;
 }
 
 .contact-banner::before,
@@ -3380,6 +3382,14 @@ iframe {
 .process-wrapp li>.pro-step::before {
     -webkit-border-radius: 50%;
     border-radius: 50%;
+}
+
+.spacer-high{
+    margin-bottom: 56px;
+
+}
+.spacer-low{
+    margin-bottom: 12px;
 }
 
 .process-wrapp.no-rounded li>.pro-step,
@@ -3660,7 +3670,7 @@ iframe {
 /* Counters */
 
 .bg-counters {
-    background: url(../images/counter-bg.jpg) no-repeat center center;
+    background: url(../assets/images/counter-bg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -4041,7 +4051,7 @@ iframe {
     left: 0;
     top: 0;
     position: absolute;
-    background: url(../images/testimonial-bg.jpg) no-repeat center center;
+    background: url(../assets/images/testimonial-bg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     z-index: -1;
