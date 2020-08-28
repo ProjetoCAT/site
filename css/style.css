@@ -3383,6 +3383,9 @@ iframe {
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
+.spacer-ultra-high{
+    margin-bottom: 264px;
+}
 
 .spacer-high{
     margin-bottom: 56px;
@@ -4596,7 +4599,9 @@ h4.darkcolor {
 
 section#stayconnect {
     margin-top: -40px;
+
 }
+
 
 .contactus-wrapp,
 .getin_form .form-control,
