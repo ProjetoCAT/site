@@ -4612,6 +4612,11 @@ section#stayconnect {
     position: relative;
 }
 
+.img-responsive{
+    width: 30%;
+    height: 30%;
+}
+
 .contactus-wrapp {
     padding: 2.5rem 2rem;
     -webkit-transform: translateY(40px);
