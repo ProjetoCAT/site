@@ -460,7 +460,7 @@ p {
 }
 
 .defaultcolor {
-    color: #24cdd5;
+    color: #1d78cb;
 }
 
 .container-padding {
@@ -717,11 +717,11 @@ section,
     bottom: 30px;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
-    background-image: -webkit-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -moz-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), to(#5192e1));
+    background-image: -webkit-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -moz-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -o-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: linear-gradient(to right, #5192e1 0%, #5192e1 100%);
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     -o-transform: scale(0);
@@ -1562,11 +1562,11 @@ ul.social-icons.white li a:focus {
 .gradient-btn {
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
-    background-image: -webkit-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -moz-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), to(#5192e1));
+    background-image: -webkit-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -moz-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -o-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: linear-gradient(to right, #5192e1 0%,  #5192e1 100%);
     color: #fff;
 }
 
@@ -2888,11 +2888,11 @@ a.dropdown-toggle::after {
     transform: scale(.5);
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
-    background-image: -webkit-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -moz-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), to(#5192e1));
+    background-image: -webkit-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -moz-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -o-linear-gradient(left, #5192e1 0%,  #5192e1 100%);
+    background-image: linear-gradient(to right, #5192e1 0%,  #5192e1 100%);
 }
 
 .owl-prev:hover,
@@ -3240,6 +3240,23 @@ iframe {
 
 /*Service Slider*/
 
+/*SLIDERS OWL*/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#bar{
+    width: 0%;
+    max-width: 100%;
+    height: 4px;
+    background: #0d95e8;
+}
+#progressBar{
+    width: 100%;
+    background: #EDEDED;
+}
+
 #services-slider {
     margin: -140px 0 0;
     min-height: 345px;
@@ -3324,11 +3341,11 @@ iframe {
 .gradient-bg {
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
-    background-image: -webkit-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -moz-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), to(#5192e1));
+    background-image: -webkit-linear-gradient(left, #5192e1 0%, #5192e1 100%);
+    background-image: -moz-linear-gradient(left, #5192e1 0%,  #5192e1 100%);
+    background-image: -o-linear-gradient(left, #5192e1 0%,  #5192e1 100%);
+    background-image: linear-gradient(to right, #5192e1 0%,  #5192e1 100%);
 }
 
 #services-slider .owl-item.center .service-box:hover {
@@ -4570,6 +4587,13 @@ h4.darkcolor {
 
 
 /* ----- Partner ----- */
+
+
+
+#partners-slider .owl-carousel{
+    autoplay:true;!important;
+    autoplayTimeout:8000;!important;
+}
 
 #partners-slider .item {
     text-align: center;
@@ -6725,7 +6749,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 ::-webkit-scrollbar {
     width: 7px;
-    background-color: #3EABDC;
+    background-color: #5192e1;
 }
 
 ::-webkit-scrollbar-thumb {

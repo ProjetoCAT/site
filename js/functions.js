@@ -547,7 +547,7 @@ jQuery($=> {
             anchor: 'bottom-right',
             offset: [0, 0],
             animation: 'fade',
-            content:'Click Here To Close or Press ESC!',
+            content:'Retornar ao site',
             delay: 20,
             theme: 'tooltipster-light',
             repositionOnScroll: true,
@@ -670,25 +670,27 @@ jQuery($=> {
     /* ------ OWL Slider ------ */
     /*Partners / LOgo*/
     $("#partners-slider").owlCarousel({
-        items: 5,
-        autoplay: 1500,
+        items: 2,
+        autoplay: true,
+        autoplayTimeout: 5000,
         smartSpeed: 1500,
         autoplayHoverPause: true,
-        slideBy: 1,
+        slideBy: 2,
         loop: true,
         margin: 30,
         dots: false,
-        nav: false,
+        nav: true,
+        navText: ["<i id='arrow-left' class='fas fa-angle-left' style='left: -45px; top: 45%; '></i>", "<i id='arrow-right' class='fas fa-angle-right'></i>"],
         responsive: {
-            1200: {
-                items: 5,
-            },
-            991: {
-                items: 4,
-            },
-            767: {
-                items: 3,
-            },
+            // 1200: {
+            //     items: 5,
+            // },
+            // 991: {
+            //     items: 4,
+            // },
+            // 767: {
+            //     items: 3,
+            // },
             480: {
                 items: 2,
             },
