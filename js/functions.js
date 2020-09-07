@@ -81,7 +81,7 @@ jQuery($=> {
             }, 'json');
 
         } else {
-            output = '<div class="alert-danger" style="padding:10px; margin-bottom:25px;">Please provide the missing fields.</div>';
+            output = '<div class="alert-danger" style="padding:10px; margin-bottom:25px;">Favor preencher todos os campos.</div>';
             result.slideUp("fast").html(output).slideDown();
         }
 
