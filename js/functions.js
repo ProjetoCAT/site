@@ -670,27 +670,57 @@ jQuery($=> {
     /* ------ OWL Slider ------ */
     /*Partners / LOgo*/
     $("#partners-slider").owlCarousel({
-        items: 2,
-        autoplay: true,
+        items: 4,
+        autoplay: false,
         autoplayTimeout: 5000,
         smartSpeed: 1500,
         autoplayHoverPause: true,
-        slideBy: 2,
+        slideBy: 4,
         loop: true,
         margin: 30,
         dots: false,
         nav: true,
-        navText: ["<i id='arrow-left' class='fas fa-angle-left' style='left: -45px; top: 45%; '></i>", "<i id='arrow-right' class='fas fa-angle-right'></i>"],
+        navText: ["<i id='arrow-left' class='fas fa-angle-left'></i>", "<i id='arrow-right' class='fas fa-angle-right'></i>"],
         responsive: {
             // 1200: {
             //     items: 5,
             // },
-            // 991: {
-            //     items: 4,
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 3,
+            },
+            480: {
+                items: 2,
+            },
+            0: {
+                items: 1,
+            },
+        }
+    });
+    $("#partners-first-slider").owlCarousel({
+        items: 4,
+        autoplay: false,
+        autoplayTimeout: 5000,
+        smartSpeed: 1500,
+        autoplayHoverPause: true,
+        slideBy: 4,
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav: true,
+        navText: ["<i id='arrow-left' class='fas fa-angle-left'></i>", "<i id='arrow-right' class='fas fa-angle-right'></i>"],
+        responsive: {
+            // 1200: {
+            //     items: 5,
             // },
-            // 767: {
-            //     items: 3,
-            // },
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 3,
+            },
             480: {
                 items: 2,
             },
